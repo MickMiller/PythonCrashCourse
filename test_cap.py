@@ -4,7 +4,7 @@ comment added to change file for CI test 20190105 20:58
 """
 import unittest
 import cap
-
+qq
 
 class TestCap(unittest.TestCase):
 
