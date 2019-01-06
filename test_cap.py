@@ -1,6 +1,6 @@
 """
 Module docstring goes here.
-comment added to change file for CI test 20190105 19:45
+comment added to change file for CI test 20190105 19:47
 """
 import unittest
 import cap
