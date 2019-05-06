@@ -1,5 +1,5 @@
 # TestFramework
-20190506 this change made to test if PUSH then Jenkins build
+20190506 Change on laptop to be PUSHed to GitHub to trigger Jenkins build
 
 20190112 run test_ip_ch3_pyfilling.py
 - On both files External Tools pyflakes, pylint and pycodestyle run
