@@ -1,4 +1,8 @@
 # TestFramework
+20190507 PyCharm Runs ch1 and ch3 demos in Python Crash Course with 2
+disabled errors/warnings.  PyCharm checks pylint, pyflakes and pycodestyle.
+23 tests ran in 0.071 sec
+
 20190506 Change on laptop to be PUSHed to GitHub to trigger Jenkins build
 
 20190112 run test_ip_ch3_pyfilling.py
