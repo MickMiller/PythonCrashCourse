@@ -1,4 +1,6 @@
 # TestFramework
+20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)
+
 20190507 PyCharm Runs ch1 and ch3 demos in Python Crash Course with 2
 disabled errors/warnings.  PyCharm checks pylint, pyflakes and pycodestyle.
 23 tests ran in 0.071 sec
