@@ -50,6 +50,7 @@ def get_list_inside_list(offset_1, offset_2):
 
 def change_list(new_item):
     """ docstring exists so no missing-docstring Missing class msg """
+    # noinspection PyUnusedLocal
     item_1 = ['a']
     item_1 = new_item
     return item_1
@@ -112,16 +113,16 @@ def count_items_in_list(my_list, item):
     return my_list.count(item)
 
 
-def join_and_split_1ist(list_local, seperator):
+def join_and_split_1ist(list_local, separator):
     """ docstring exists so no missing-docstring Missing class msg """
-    joined = seperator.join(list_local)
+    joined = separator.join(list_local)
     return joined
 
 
-def join_and_split_list_2(list_local, seperator):
+def join_and_split_list_2(list_local, separator):
     """ docstring exists so no missing-docstring Missing class msg """
-    seperated = list_local.split(seperator)
-    return seperated
+    separated = list_local.split(separator)
+    return separated
 
 
 def sorted_list(list_local):
