@@ -1,3 +1,5 @@
+This is new first line in branch ch3 which will be:
+ADDed, COMMITted and then MERGEd
 In branch ch4 this is first line
 In branch ch3 this is first line
 # TestFramework
