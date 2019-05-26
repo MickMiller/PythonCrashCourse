@@ -3,7 +3,7 @@ File: test_ch3.py
 Purpose: One or more tests for headers in
     Introducing Python chapter 3: PyFilling: Lists, Tuples, Dictionaries & Sets
     File to be ADDed, COMMITted and MERGEd into branch master"
-"""
+ER are this change wiped out by git pull"""
 
 import unittest
 import ch3_pyfilling  # imports all functions in module ch3_pyfilling
