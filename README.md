@@ -1,3 +1,5 @@
+In branch ch4 this is first line
+In branch ch3 this is first line
 # TestFramework
 20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)
 
