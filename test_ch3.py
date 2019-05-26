@@ -2,6 +2,7 @@
 File: test_ch3.py
 Purpose: One or more tests for headers in
     Introducing Python chapter 3: PyFilling: Lists, Tuples, Dictionaries & Sets
+    File to be ADDed, COMMITted and MERGEd into branch master"
 """
 
 import unittest
