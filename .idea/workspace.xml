@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e4e824-c7f2-40c4-8a73-d1c03083166f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/GMMil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3_TIY.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3_TIY.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3_pyfilling.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3_pyfilling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_ch3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_ch3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +29,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test_ch3.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="245" column="38" selection-start-line="245" selection-start-column="38" selection-end-line="245" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#149#164#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="72">
+                  <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -54,8 +48,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="391">
-                    <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+                  <first_editor relative-caret-position="425">
+                    <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -69,8 +63,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ch3_tiy.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="496">
-                  <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+                <state relative-caret-position="176">
+                  <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -99,6 +93,7 @@
       <find>print(</find>
       <find>_3_</find>
       <find>show_items_in_list_3_10</find>
+      <find>ch3_tiy</find>
     </findStrings>
     <replaceStrings>
       <replace>separator</replace>
@@ -145,11 +140,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1545" />
-    <option name="y" value="5" />
-    <option name="width" value="1380" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,6 +153,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test_ch3.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -200,15 +196,15 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle ch3_pyfilling" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle ch3_tiy" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle test_ch3" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch3_pyfilling" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch3" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch3" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch3_tiy" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch3" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch3_pyfilling" />
         <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch3_tiy" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch3" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch3_tiy" />
       </method>
     </configuration>
   </component>
@@ -235,7 +231,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-145" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.08377239" />
@@ -243,7 +239,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.21022129" weight="0.40086675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.60556465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,19 +254,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08377239" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.08377239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21074815" visible="true" weight="0.40086675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.40086675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.78925186" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.7897787" side_tool="true" weight="0.40086675" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -306,8 +302,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <first_editor relative-caret-position="425">
+            <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -315,18 +311,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ch3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="245" column="38" selection-start-line="245" selection-start-column="38" selection-end-line="245" selection-end-column="38" />
-          <folding>
-            <element signature="e#149#164#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch3_tiy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
         </state>
       </provider>
     </entry>
