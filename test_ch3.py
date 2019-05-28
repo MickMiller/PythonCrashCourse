@@ -6,7 +6,7 @@ Purpose: One or more tests for headers in
 
 import unittest
 import ch3_pyfilling  # imports all functions in module ch3_pyfilling
-from ch3_tiy import names_3_1  # from module ch3_tiy import function names_3_1
+from ch3_tiy import names_3_1  # from module ch3_tiy import funt names_3_1
 from ch3_tiy import greetings_3_2
 from ch3_tiy import fav_transportation_3_3
 from ch3_tiy import dinner_guest_3_4
@@ -28,10 +28,11 @@ from ch3_tiy import sort_list_changed_3_10
 from ch3_tiy import append_3_10
 from ch3_tiy import reverse_3_10
 from ch3_tiy import sort_list_reverse_3_10
+# import ch3_tiy
 
 
 class TestCh3TIY(unittest.TestCase):
-    """ Class TestCh3TIT (Test It Yourself) """
+    """ Class TIY (Test It Yourself) """
 
     def setUp(self):
         pass
@@ -177,38 +178,42 @@ class TestCh3TIY(unittest.TestCase):
         print("\nSeeing the world 3_8 =======================================")
         world_list = \
             ["Frankfort", "Richmond", "Joisey", "Normandy", "Auschwitz"]
-
-        # Change order of list via sorted and show original list unchanged
-        # List in original order
+        world_list_original = world_list[:]
+        # Print original list in original order
         list_to_verify = world_list[:]  # Copy w_l to l_t_v
+        self.assertEqual(world_list, world_list_original)
 
-        # Next executable line alphabetizes w_l and assigns to n_l
-        #    w_l unchanged
-        new_list = sorted(world_list)
-        list_to_verify.append(new_list)  # adds new object, n_l to end of l_t_v
-        # list_to_verify.attach(new_list) #  adds 5 items viz n_l to l_t_v
+        # Print list in alphabetical order
+        list_to_verify = sorted(world_list)
 
-        # Reverse order of list via sorted and show original list unchanged
-        new_list = sorted(world_list, reverse=True)
-        list_to_verify.append(new_list)
-        #
-        # Change order of list via reverse() and show original list changed
-        new_list = world_list[:]
-        new_list.reverse()  # Reverses new_list
-        list_to_verify.append(new_list)
-        #
-        # Change order of list via reverse() and show back to original list
-        new_list.reverse()  # Re-reverses n_l restoring original
-        list_to_verify.append(new_list)
-        #
+        # Original list unchanged
+        list_to_verify = world_list[:]
+        self.assertEqual(world_list, world_list_original)
+
+        # Reverse order of list via sorted
+        list_to_verify = sorted(world_list, reverse=True)
+        self.assertEqual(world_list, world_list_original)
+
+        # Original list unchanged
+        list_to_verify = world_list[:]
+
+        # Change order of list via reverse()
+        world_list.reverse()
+        list_to_verify = world_list[:]
+
+        # Reverse list again back to original
+        world_list.reverse()
+        list_to_verify = world_list[:]
+        self.assertEqual(world_list, world_list_original)
+
         # Change list to alphabetical order via sort
-        new_list = world_list[:]  # Copy w_l to n_l
-        new_list.sort()
-        list_to_verify.append(new_list)
-        #
+        world_list.sort()
+        list_to_verify = world_list[:]
+
         # Change list to reverse alphabetical order via sort
-        new_list.sort(reverse=True)
-        list_to_verify.append(new_list)
+        world_list.sort(reverse=True)
+        list_to_verify = world_list[:]
+
         self.assertEqual(list_to_verify, seeing_world_3_8())
 
     def test_dinner_guest_3_9(self):

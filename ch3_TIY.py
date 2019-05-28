@@ -79,7 +79,6 @@ def dinner_guest_3_7():
     guest_list.insert(0, "Al Einstein")
     guest_list.insert(2, "Prof Uncle Eric")
     guest_list.append(" Dear Old Dad")
-    m_print_0 = "Sorry only 2 guests."
     #
     # Remove guests
     guest_list.pop(0)
@@ -96,64 +95,64 @@ def dinner_guest_3_7():
     print("Guest list", guest_list)
     #
     m_print_msg = str(guest_list)
-    return(m_print_msg)
+    return m_print_msg
 
 
 def seeing_world_3_8():
-    """ World sites to see
-    three lists:
-    1) world_list - starting list
-    2) temp_list - used for clarity - visibility into process
-    3) list_to_verify - as development proceeds this list grows,
-       typically temp_list is correct then appended to this list """
-
+    """ World sites to see.  Three lists involved:
+    1) world_list - starting list which remains unchanged
+    2) temp_list - modified per requirements then appended to list_to_return
+    3) list_to_return - as development proceeds this list grows and verified,
+         by test_
+    4) There are 7 requirements and some have sub-requirements.
+       See 2nd req. which has 2 sub-requirmenst
+       "Use sorted() to print your list in alphabetical order without
+       modifying the actual list".
+       First sub-requirement is sorted() list.
+       Second is unchanged list.
+       Verified by test_ are two lists - one for each sub-requirement
+    """
     world_list = \
         ["Frankfort", "Richmond", "Joisey", "Normandy", "Auschwitz"]
-    list_to_verify = world_list[:]
-    #
+    list_to_print = world_list[:]
     # Print original list in original order
-    print("List in original order:", world_list)
-    #
-    # Change order of list via sorted and show original list unchanged
+    print("---------- List in original order:", list_to_print, "\n")
+
+    # Use sorted() to print list in alphabetical order
     list_to_print = sorted(world_list)
     print("List in alphabetical order:", list_to_print)
-    list_to_verify.append(list_to_print)
-    #
+
     # Show original list unchanged
-    print("Original order preserved 1:", world_list)
-    #
-    # Reverse order of list via sorted and show original list unchanged
-    temp_list = sorted(world_list)
-    temp_list = sorted(temp_list, reverse=True)
-    print("List in reverse alphabetical order:", temp_list)
-    list_to_verify.append(temp_list)
-    print("In ch3_TIY list_to_verify:", list_to_verify)
-    print("Original order preserved_2:", world_list)
-    #
-    #
-    # Change order of list via reverse() and show original list changed
-    temp_list = world_list[:]
-    temp_list.reverse()
-    print("List reversed AND list changed:", temp_list)
-    list_to_verify.append(temp_list)
-    #
-    # Change order of list via reverse() and show back to original list
-    temp_list.reverse()
-    print("List reversed back to original AND list changed:", temp_list)
-    list_to_verify.append(temp_list)
-    #
-    # Change list to alphabetical order via sort & show order has changed
-    temp_list = world_list[:]  # Copy w_l to n_l
-    temp_list.sort()
-    print("List:", temp_list)
-    list_to_verify.append(temp_list)
-    #
+    list_to_print = world_list[:]
+    print("Original order preserved 1:", list_to_print)
+
+    # Reverse order of list via sorted
+    list_to_print = sorted(world_list, reverse=True)
+
+    # Show original list unchanged
+    list_to_print = world_list[:]
+    print("Original order preserved 1:", list_to_print)
+
+    # Reverse order of list via reverse()
+    world_list.reverse()
+    list_to_print = world_list[:]
+    print("List in reverse alphabetical order:", list_to_print)
+
+    # Reverse list again back to original
+    world_list.reverse()
+    list_to_print = world_list[:]
+    print("Original list reestablished:", world_list)
+
+    # Change order of list via sort()
+    world_list.sort()
+    list_to_print = world_list[:]
+    print("List reversed:", list_to_print)
+
     # List to reverse alphabetical order via sort & show order has changed
-    temp_list.sort(reverse=True)
-    list_to_verify.append(temp_list)
-    print("List reversed and changed via sort")
-    print("In ch3_TIY list_to_verify:", list_to_verify)
-    return(list_to_verify)
+    world_list.sort(reverse=True)
+    list_to_print = world_list[:]
+    print("List reversed:", list_to_print)
+    return list_to_print
 
 
 def dinner_guest_3_9():
