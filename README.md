@@ -1,4 +1,6 @@
 # TestFramework
+20190603 Start Ch 6 - Dictionaries
+
 20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)
 
 20190507 PyCharm Runs ch1 and ch3 demos in Python Crash Course with 2
