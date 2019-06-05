@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e4e824-c7f2-40c4-8a73-d1c03083166f" name="Default Changelist" comment="Ch 5 - if statements">
-      <change afterPath="$PROJECT_DIR$/ch5_tiy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ch5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6_tiy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ch6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/GMMil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/GMMil.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +21,25 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_ch5.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="17">
+                    <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="102">
-                    <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
-                  </first_editor>
-                  <second_editor />
+            <entry file="file://$PROJECT_DIR$/test_ch6.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="290">
+                  <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#81#96#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -45,18 +48,22 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ch5_tiy.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Local/Temp/Run PyCharm for the first time.URL">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="19" />
+                <state relative-caret-position="102">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/AppData/Local/Temp/Run PyCharm for the first time.URL">
-              <provider selected="true" editor-type-id="text-editor" />
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ch6_tiy.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="424">
+                  <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -65,12 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>seperator</find>
-      <find>friend</find>
-      <find>test_greetings_3_2</find>
-      <find>transport</find>
-      <find>fav_transportation_3_3</find>
-      <find>fav_guestation_3_3</find>
       <find>m_print_3</find>
       <find>result</find>
       <find>sorted</find>
@@ -95,12 +96,14 @@
       <find>for</find>
       <find>sum_1_million_4_4</find>
       <find>in to prev</find>
+      <find>test_person_6_1</find>
+      <find>fav_num_dict_1</find>
+      <find>test_fruit_dict</find>
+      <find>6_1</find>
+      <find>list</find>
+      <find>dusty</find>
     </findStrings>
     <replaceStrings>
-      <replace>dinner_guest_3_4</replace>
-      <replace>tn_result</replace>
-      <replace>tg_result</replace>
-      <replace>tf_result</replace>
       <replace>td_result</replace>
       <replace>dg_result</replace>
       <replace>el_result</replace>
@@ -127,10 +130,19 @@
       <replace>test_comic_list</replace>
       <replace>test_car</replace>
       <replace>prev</replace>
+      <replace>_1</replace>
+      <replace>fav_num_6_2</replace>
+      <replace>glossary</replace>
+      <replace>folks</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ch4" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -142,8 +154,10 @@
         <option value="$PROJECT_DIR$/ch4_tiy.py" />
         <option value="$PROJECT_DIR$/test_ch4.py" />
         <option value="$PROJECT_DIR$/ch5_tiy.py" />
-        <option value="$PROJECT_DIR$/test_ch5.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/test_ch5.py" />
+        <option value="$PROJECT_DIR$/ch6_tiy.py" />
+        <option value="$PROJECT_DIR$/test_ch6.py" />
       </list>
     </option>
   </component>
@@ -161,7 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/README.md" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_ch5.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -183,7 +197,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ch5_tiy" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="ch6_tiy" type="PythonConfigurationType" factoryName="Python">
       <module name="TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,7 +209,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ch5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ch6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,12 +217,12 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch5" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle test_ch5" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch5_tiy" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch5" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch5_tiy" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch5" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle test_ch6" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle ch6_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch6_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch6" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch6" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch6_tiy" />
       </method>
     </configuration>
   </component>
@@ -223,6 +237,21 @@
       <option name="presentableId" value="Default" />
       <updated>1557332866616</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ch 5 - if statements chapter done so ADDed&#10;- ADD ch 4 files">
+      <created>1559564550399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559564550399</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ch 5 - if statements&#10;restored CCP chapter 5 file test_ch5.py">
+      <created>1559566091517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559566091517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -243,7 +272,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.2892741" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.33152762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,7 +309,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ch 5 - if statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 5 - if statements" />
+    <MESSAGE value="Ch 5 - if statements chapter done so ADDed&#10;- ADD ch 4 files" />
+    <MESSAGE value="Ch 5 - if statements&#10;restored CCP chapter 5 file test_ch5.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 5 - if statements&#10;restored CCP chapter 5 file test_ch5.py" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../ch3_TIY.py">
@@ -341,28 +372,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5_tiy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" selection-start-line="36" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="514">
+          <caret line="49" selection-start-line="49" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Run PyCharm for the first time.URL">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_ch5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+        <state relative-caret-position="293">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="73" lean-forward="true" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ch6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Run PyCharm for the first time.URL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_tiy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
         </state>
       </provider>
     </entry>
