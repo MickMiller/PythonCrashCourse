@@ -4,10 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e4e824-c7f2-40c4-8a73-d1c03083166f" name="Default Changelist" comment="Ch 5 - if statements">
-      <change afterPath="$PROJECT_DIR$/ch6_tiy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ch6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/GMMil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/GMMil.xml" afterDir="false" />
+    <list default="true" id="38e4e824-c7f2-40c4-8a73-d1c03083166f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch7_tiy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ch7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -33,13 +32,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test_ch6.py">
+            <entry file="file://$PROJECT_DIR$/test_ch7.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#81#96#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="23">
+                  <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/rmme.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
                 </state>
               </provider>
             </entry>
@@ -58,10 +63,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ch6_tiy.py">
+            <entry file="file://$PROJECT_DIR$/ch7_tiy.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="424">
-                  <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -72,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>m_print_3</find>
       <find>result</find>
       <find>sorted</find>
       <find>guest</find>
@@ -102,6 +106,7 @@
       <find>6_1</find>
       <find>list</find>
       <find>dusty</find>
+      <find>7_8</find>
     </findStrings>
     <replaceStrings>
       <replace>td_result</replace>
@@ -158,13 +163,16 @@
         <option value="$PROJECT_DIR$/test_ch5.py" />
         <option value="$PROJECT_DIR$/ch6_tiy.py" />
         <option value="$PROJECT_DIR$/test_ch6.py" />
+        <option value="$PROJECT_DIR$/ch7_tiy.py" />
+        <option value="$PROJECT_DIR$/test_ch7.py" />
+        <option value="$PROJECT_DIR$/rmme.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1921" />
-    <option name="y" value="-135" />
-    <option name="width" value="1378" />
+    <option name="x" value="-1734" />
+    <option name="y" value="-30" />
+    <option name="width" value="1348" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -175,7 +183,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_ch5.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rmme.py" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
@@ -196,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.rmme">
     <configuration name="ch6_tiy" type="PythonConfigurationType" factoryName="Python">
       <module name="TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,7 +217,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ch6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_ch7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,14 +225,44 @@
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2">
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle test_ch6" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle ch6_tiy" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch6_tiy" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch6" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch6" />
-        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch6_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle ch7_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pycodestyle test_ch7" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes ch7_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pyflakes test_ch7" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint ch7_tiy" />
+        <option name="ToolBeforeRunTask" enabled="true" actionId="Tool_External Tools_pylint test_ch7" />
       </method>
     </configuration>
+    <configuration name="rmme" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rmme.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ch6_tiy" />
+      <item itemvalue="Python.rmme" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.rmme" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -251,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559566091517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ch 6 - Dictionaries">
+      <created>1559736839219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559736839219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -272,7 +317,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.33152762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.21022129" visible="true" weight="0.5167931" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,7 +356,8 @@
     <MESSAGE value="Ch 5 - if statements" />
     <MESSAGE value="Ch 5 - if statements chapter done so ADDed&#10;- ADD ch 4 files" />
     <MESSAGE value="Ch 5 - if statements&#10;restored CCP chapter 5 file test_ch5.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 5 - if statements&#10;restored CCP chapter 5 file test_ch5.py" />
+    <MESSAGE value="Ch 6 - Dictionaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 6 - Dictionaries" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../ch3_TIY.py">
@@ -387,23 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ch6.py">
+    <entry file="file://$PROJECT_DIR$/ch6_tiy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-          <folding>
-            <element signature="e#81#96#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="424">
+          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -414,10 +447,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch6_tiy.py">
+    <entry file="file://$PROJECT_DIR$/test_ch6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+        <state relative-caret-position="86">
+          <caret line="60" column="30" lean-forward="true" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <folding>
+            <element signature="e#81#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch7_tiy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rmme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ch7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
