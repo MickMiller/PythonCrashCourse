@@ -6,7 +6,7 @@ Purpose: One or more tests for headers in
 
 import unittest
 import ch3_pyfilling  # imports all functions in module ch3_pyfilling
-from ch3_tiy import names_3_1  # from module ch3_tiy import funt names_3_1
+from ch3_tiy import names_3_1  # from module ch3_tiy import func names_3_1
 from ch3_tiy import greetings_3_2
 from ch3_tiy import fav_transportation_3_3
 from ch3_tiy import dinner_guest_3_4
