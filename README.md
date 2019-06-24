@@ -1,4 +1,6 @@
 # TestFramework
+20190624 Chapter 9 done and saved.
+
 20190603 Start Ch 6 - Dictionaries
 
 20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)

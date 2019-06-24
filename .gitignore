@@ -1,3 +1,4 @@
-# ignore directory
+# ignore directories
 __pycache__
+Backup
 
