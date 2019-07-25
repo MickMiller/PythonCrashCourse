@@ -1,4 +1,7 @@
 # TestFramework
+20190724 Chapters up to and including ch10 added.
+    oodemo and oer.py (Oodemo Expected Results) may prove useful.
+
 20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)
 
 20190507 PyCharm Runs ch1 and ch3 demos in Python Crash Course with 2
