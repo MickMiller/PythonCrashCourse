@@ -1,0 +1,3 @@
+I've learned that:
+- process is important
+- there are tools, eg PyCharm and TDD to support process
