@@ -1,6 +1,8 @@
 # TestFramework
 20190724 Chapters up to and including ch10 added.
     oodemo and oer.py (Oodemo Expected Results) may prove useful.
+    workspace.xml.oodemo when in ../../.idea/workspace.xml invokes
+        External tools pycodestyle, pyflakes and pylint.
 
 20190524 PyCharm runs everything is used to run plus Ch3 Try It Yourself (TIY)
 
