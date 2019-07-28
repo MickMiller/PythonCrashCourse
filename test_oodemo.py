@@ -1,9 +1,15 @@
 """ File: test_oodemo.py
 Author: Gerard (Mick) Miller
-Purpose: Working code showing often used snippits, eg do <something> for list
-  my_stooges3 = ("Moe", "Larry, "Curley")
-  for stooge in stooges3:
-      print("Stoog is: ", stooge)
+Purpose: Working code showing often used snippits, eg do <something> for list.
+    my_stooges3 = ("Moe", "Larry, "Curley")
+    for stooge in stooges3:
+        print("Stoog is: ", stooge)Bash
+    To print documentation, from window running Bash:
+        python -m pydoc test_oodemo | more # TBD issue:
+            lots of doc on methods Python brings in,
+                eg Methods inherited from unittest.case.TestCase - __call__
+                eg python -m pydoc -k test_ |wc - generates 756 lines
+            pdoc test_oodemo AND pdoc oodeo_class_elec gave concise results
 """
 
 
@@ -15,7 +21,7 @@ from oodemo_class_elec import ElectricCar
 
 class TestOoDemo(unittest.TestCase):
     """ class TestOoDemo
-    - unittest.TestCase
+    - unittest.TestCase.
       o https://docs.python.org/2/library/unittest.html
       o Python unit testing framework, sometimes referred to as “PyUnit"
       o unittest supports test automation, sharing of setup and shutdown code
@@ -29,7 +35,7 @@ class TestOoDemo(unittest.TestCase):
     # setUp is method in class unittest.TestCaseRun
     # It's run first, can create objects for other methonds
     def setUp(self):
-        """ Called first when instanciating Car """
+        """ Called first when instanciating Car. """
         self.stooges3 = ["Moe", "Larry", "Curly"]
         inf = open('oer.py', 'r')  # oer Oodemo Expected Results
         oer = ast.literal_eval(inf.read())
@@ -40,24 +46,24 @@ class TestOoDemo(unittest.TestCase):
         pass
 
     def test_car_descriptive_name(self):
-        """ See title AND object created in setUp """
+        """ See title AND object created in setUp. """
         msg = self.my_beetle.class_get_descriptive_name()
         self.assertEqual('2015 Volkswagen Beetle', msg)
 
     def test_car_read_odometer(self):
-        """ See title AND object created in setUp """
+        """ See title AND object created in setUp. """
         msg = self.my_beetle.class_get_descriptive_name()
         self.assertEqual('2015 Volkswagen Beetle', msg)
 
     def test_car_increment_odometer(self):
-        """ See title """
+        """ See title. """
         my_saab = Car('Saab', '900', 1984)
         my_saab.class_increment_odometer(281236)
         self.assertEqual(my_saab.class_read_odometer(),
                          "This car has 281236 miles on it.")
 
     def test_car_elec(self):
-        """ Electric car instanciated """
+        """ Electric car instanciated. """
         my_tesla = ElectricCar('tesla', 'Roadster', 2015)
         msg = my_tesla.class_get_descriptive_name()
         self.assertEqual('2015 Tesla Roadster', msg)
@@ -82,7 +88,7 @@ class TestOoDemo(unittest.TestCase):
         self.assertEqual("Can't fill gas tank of electric car!", msg)
 
     def test_stooges3(self):
-        """ Test of 'do something for list' """
+        """ Test of 'do something for list'. """
         index = 0
 
         for stooge in self.stooges3:
@@ -90,7 +96,7 @@ class TestOoDemo(unittest.TestCase):
             index += 1
 
     def test_list_comprehension(self):
-        """ See title - this works, why to use it is TBD """
+        """ See title - this works, why to use it is TBD. """
 
         comprehension_stooge_list = [stooge for stooge in self.stooges3]
         self.assertEqual(self.stooges3, comprehension_stooge_list)
